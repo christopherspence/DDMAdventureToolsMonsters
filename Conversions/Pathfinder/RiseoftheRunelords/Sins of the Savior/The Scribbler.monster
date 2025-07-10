@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AbilityScores>
+    <Values>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="18">
+        <Name>Dexterity</Name>
+        <ID>AB3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="22">
+        <Name>Constitution</Name>
+        <ID>AB2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>4</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="14">
+        <Name>Wisdom</Name>
+        <ID>AB5</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-4</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="24">
+        <Name>Strength</Name>
+        <ID>AB1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="12">
+        <Name>Intelligence</Name>
+        <ID>AB4</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-6</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="26">
+        <Name>Charisma</Name>
+        <ID>AB6</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>5</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+    </Values>
+  </AbilityScores>
+  <Defenses>
+    <Values>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="32">
+        <Name>AC</Name>
+        <ID>DE5</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="32">
+        <Name>Fortitude</Name>
+        <ID>DE1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>4</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="30">
+        <Name>Reflex</Name>
+        <ID>DE2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>3</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="32">
+        <Name>Will</Name>
+        <ID>DE3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>3</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+    </Values>
+  </Defenses>
+  <AttackBonuses>
+    <Values>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="23">
+        <Name>Attack vs AC</Name>
+        <ID>ADE5</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="21">
+        <Name>Attack vs Fortitude</Name>
+        <ID>ADE1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="21">
+        <Name>Attack vs Reflex</Name>
+        <ID>ADE2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="21">
+        <Name>Attack vs Will</Name>
+        <ID>ADE3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="21">
+        <Name>Attack vs Any</Name>
+        <ID>ADE4</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+    </Values>
+  </AttackBonuses>
+  <Skills>
+    <Values>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="14">
+        <Trained>true</Trained>
+        <Name>Perception</Name>
+        <ID>SK17</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-1</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="12">
+        <Trained>false</Trained>
+        <Name>Acrobatics</Name>
+        <ID>SK1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="9">
+        <Trained>false</Trained>
+        <Name>Arcana</Name>
+        <ID>SK2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="15">
+        <Trained>false</Trained>
+        <Name>Athletics</Name>
+        <ID>SK27</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="24">
+        <Trained>true</Trained>
+        <Name>Bluff</Name>
+        <ID>SK3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>3</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="16">
+        <Trained>false</Trained>
+        <Name>Diplomacy</Name>
+        <ID>SK6</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="10">
+        <Trained>false</Trained>
+        <Name>Dungeoneering</Name>
+        <ID>SK7</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="14">
+        <Trained>false</Trained>
+        <Name>Endurance</Name>
+        <ID>SK8</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="10">
+        <Trained>false</Trained>
+        <Name>Heal</Name>
+        <ID>SK9</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="9">
+        <Trained>false</Trained>
+        <Name>History</Name>
+        <ID>SK11</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="10">
+        <Trained>false</Trained>
+        <Name>Insight</Name>
+        <ID>SK13</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="27">
+        <Trained>true</Trained>
+        <Name>Intimidate</Name>
+        <ID>SK14</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>6</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="10">
+        <Trained>false</Trained>
+        <Name>Nature</Name>
+        <ID>SK16</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="17">
+        <Trained>true</Trained>
+        <Name>Religion</Name>
+        <ID>SK18</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>3</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="12">
+        <Trained>false</Trained>
+        <Name>Stealth</Name>
+        <ID>SK20</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="22">
+        <Trained>true</Trained>
+        <Name>Streetwise</Name>
+        <ID>SK21</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>1</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="12">
+        <Trained>false</Trained>
+        <Name>Thievery</Name>
+        <ID>SK23</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+    </Values>
+  </Skills>
+  <ID>df82fae7-6e02-4f0f-8a44-f6f78b7aa269</ID>
+  <Name>The Scribbler</Name>
+  <Level>16</Level>
+  <Size id="3">
+    <ReferencedObject>
+      <Name>Medium</Name>
+    </ReferencedObject>
+  </Size>
+  <Origin id="6">
+    <ReferencedObject>
+      <Name>Natural</Name>
+    </ReferencedObject>
+  </Origin>
+  <Type id="39">
+    <ReferencedObject>
+      <Name>Humanoid</Name>
+    </ReferencedObject>
+  </Type>
+  <IsLeader>true</IsLeader>
+  <Role id="1">
+    <ReferencedObject>
+      <Name>Soldier</Name>
+    </ReferencedObject>
+  </Role>
+  <GroupRole id="GR4">
+    <ReferencedObject>
+      <Name>Solo</Name>
+    </ReferencedObject>
+  </GroupRole>
+  <Items>
+    <ItemAndQuantity>
+      <Quantity>1</Quantity>
+      <Item>
+        <ReferencedObject>
+          <Name>Fanged Falchion</Name>
+        </ReferencedObject>
+      </Item>
+    </ItemAndQuantity>
+    <ItemAndQuantity>
+      <Quantity>1</Quantity>
+      <Item>
+        <ReferencedObject>
+          <Name>+1 Breastplate</Name>
+        </ReferencedObject>
+      </Item>
+    </ItemAndQuantity>
+    <ItemAndQuantity>
+      <Quantity>1</Quantity>
+      <Item>
+        <ReferencedObject>
+          <Name>+1 Cold Iron Returning Dagger</Name>
+        </ReferencedObject>
+      </Item>
+    </ItemAndQuantity>
+  </Items>
+  <Languages>
+    <ObjectReference id="7">
+      <ReferencedObject>
+        <Name>Abyssal</Name>
+      </ReferencedObject>
+    </ObjectReference>
+    <ObjectReference id="1">
+      <ReferencedObject>
+        <Name>Common</Name>
+      </ReferencedObject>
+    </ObjectReference>
+  </Languages>
+  <Alignment id="5">
+    <ReferencedObject>
+      <Name>Chaotic Evil</Name>
+    </ReferencedObject>
+  </Alignment>
+  <Senses>
+    <ObjectReference>
+      <ReferencedObject>
+        <Name>blindsight 5 (Milky Eye)</Name>
+      </ReferencedObject>
+    </ObjectReference>
+  </Senses>
+  <Regeneration FinalValue="10">
+    <Details>Adamantine or Radiant damage deactivates regeneration until the end of The Scribbler's next turn</Details>
+    <Name>Regeneration</Name>
+    <DefaultBonus xsi:type="AddNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>10</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </Regeneration>
+  <Tactics>The Guardian uses Summon Abyssal Ally early, enters Righteous Might or Divine Power Surge, and uses its Falchion to mark key foes. Dimensional Jaunt allows repositioning. It relies on its regeneration and resistances to outlast opponents. Its lair is heavily warded (alarms, guards and wards are assumed).</Tactics>
+  <Description>A divinely empowered guardian fanatically bound to protect its sacred site, mixing martial skill with abyssal summons.</Description>
+  <Keywords>
+    <ObjectReference id="52">
+      <ReferencedObject>
+        <Name>Human</Name>
+      </ReferencedObject>
+    </ObjectReference>
+  </Keywords>
+  <Powers>
+    <MonsterPower>
+      <Name>Sacred Site Guardian</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Usage></Usage>
+      <Keywords />
+      <Description>The Scribbler is bound to this specific location. If it ever leaves the boundaries of its designated sacred site for more than 1 hour, it loses its Solo role, Regeneration, Action Points, and all powers with "Divine" or "Summon" in their name, becoming a standard Level 14 Elite Soldier until it atones or returns. Its Dimensional Jaunt power only functions within the boundaries of its sacred site.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Ability Healing</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Usage></Usage>
+      <Keywords />
+      <Description>The Scribbler removes one instance of ongoing penalty to an ability score or defense at the start of its turn.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Divine Swiftness</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Usage></Usage>
+      <Keywords />
+      <Description>The Scribbler gains a +4 racial bonus to Initiative checks and its speed is increased by 2.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Milky Eye</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Usage></Usage>
+      <Keywords />
+      <Description>The Scribbler has Blindsight 5 ft but takes a -2 penalty to Perception checks beyond that range (factored in).</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Bound to the Faith</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Usage></Usage>
+      <Keywords />
+      <Description>A powerful cleric (Level 10+) who worships an evil deity opposed to The Scribbler's patron can attempt to command it. As a standard action, the cleric makes an Intimidate or Religion check (DC 29 - Scribbler's Will). On a success, The Scribbler is dazed (save ends). On a critical success (10+ over DC), The Scribbler is dominated for 1 round.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Fanged Falchion</Name>
+      <Type>Melee</Type>
+      <IsBasic>true</IsBasic>
+      <Action>Standard</Action>
+      <Usage>At-Will</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="89">
+          <ReferencedObject>
+            <Name>Weapon</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description></Description>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Damage>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="12">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>5</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo>force and slashing damage. If the target is Good-aligned or a divine spellcaster who does not worship an evil deity, the attack deals an extra 2d6 radiant and necrotic damage (total 2d8+2d6+12). Effect: The target is marked until the end of the Divine Guardian's next turn.</DamageInfo>
+          <AttackBonuses>
+            <MonsterPowerAttackNumber FinalValue="31">
+              <Defense id="ADE5">
+                <ReferencedObject>
+                  <DefenseName>AC</DefenseName>
+                  <Name>Attack vs AC</Name>
+                </ReferencedObject>
+              </Defense>
+              <Name>AttackBonus</Name>
+              <ID>AttackBonus</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>8</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </MonsterPowerAttackNumber>
+          </AttackBonuses>
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Cold Iron Dagger</Name>
+      <Type>Ranged</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Standard</Action>
+      <Usage>At-Will</Usage>
+      <Keywords>
+        <ObjectReference id="89">
+          <ReferencedObject>
+            <Name>Weapon</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description></Description>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Range>Ranged 10/20 (one creature)</Range>
+          <Damage>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="7">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>0</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo>cold iron and piercing damage.</DamageInfo>
+          <AttackBonuses>
+            <MonsterPowerAttackNumber FinalValue="28">
+              <Defense id="ADE5">
+                <ReferencedObject>
+                  <DefenseName>AC</DefenseName>
+                  <Name>Attack vs AC</Name>
+                </ReferencedObject>
+              </Defense>
+              <Name>AttackBonus</Name>
+              <ID>AttackBonus</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>5</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </MonsterPowerAttackNumber>
+          </AttackBonuses>
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Divine Power Surge</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Minor</Action>
+      <Usage>At-Will</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="84">
+          <ReferencedObject>
+            <Name>Stance</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Effect: While in this stance, the Guardian's melee attacks deal an extra 1d8 damage, and it gains a +2 power bonus to Fortitude and Will. The Guardian can only maintain one stance at a time. This stance ends if the Guardian enters another stance or is dazed or stunned.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Righteous Might</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Minor</Action>
+      <Usage>Encounter</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="76">
+          <ReferencedObject>
+            <Name>Polymorph</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="84">
+          <ReferencedObject>
+            <Name>Stance</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Effect: The Scribbler grows in size and power. It becomes Large (gaining Reach 2 with melee attacks if it didn't have it). While in this stance, it gains a +2 power bonus to attack rolls, and its melee attacks push targets 1 square on a hit. It gains 20 temporary hit points when it enters this stance. This stance lasts until the end of the encounter or until The Scribbler ends it as a free action. This stance ends if The Scribbler enters another stance or is dazed or stunned.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Summon Abyssal Ally</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Standard</Action>
+      <Usage>Recharge 5</Usage>
+      <Keywords>
+        <ObjectReference id="62">
+          <ReferencedObject>
+            <Name>Conjuration</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="85">
+          <ReferencedObject>
+            <Name>Summoning</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Effect: The Scribbler summons one of the following creatures adjacent to itself or an enemy within 10 squares. The summoned creature acts on The Scribbler's turn, has its own actions, and lasts until it is destroyed or the Scribbler dismisses it as a free action. The Scribbler can only have one creature summoned via this power at a time (new summons dismisses old). * 1d3 Fanatical Cultists * 1 Barghest </Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Spiritual Weapon Flurry</Name>
+      <Type>Area</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Standard</Action>
+      <Usage>Encounter</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="66">
+          <ReferencedObject>
+            <Name>Force</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="69">
+          <ReferencedObject>
+            <Name>Implement</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description></Description>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Range>Area burst 1 within 10 (enemies in burst)</Range>
+          <Damage>
+            <Type>Normal</Type>
+            <Modifier>High</Modifier>
+            <Constant FinalValue="11">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>4</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo>force damage, and the target is dazed until the end of The Scribbler's next turn. Miss: Half damage, and the target is slowed until the end of The Scribbler's next turn.</DamageInfo>
+          <AttackBonuses />
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Dimensional Jaunt</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Minor</Action>
+      <Usage>Recharge 6</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="86">
+          <ReferencedObject>
+            <Name>Teleportation</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Effect: The Scribbler teleports up to 10 squares to an unoccupied space it can see within its Sacred Site.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Quicken Divine Favor</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Minor</Action>
+      <Usage>Encounter</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Effect: The Scribbler gains a +2 power bonus to its next attack roll and damage roll made before the end of its next turn.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Intercession</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Immediate Reaction</Action>
+      <Usage>Recharge 4</Usage>
+      <Keywords>
+        <ObjectReference id="64">
+          <ReferencedObject>
+            <Name>Divine</Name>
+          </ReferencedObject>
+        </ObjectReference>
+        <ObjectReference id="89">
+          <ReferencedObject>
+            <Name>Weapon</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Trigger: An enemy within 5 squares of The Scribbler hits an allied summoned creature with an attack.</Description>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Damage>
+            <CustomValue></CustomValue>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="0">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>-7</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo> Effect: The Divine Guardian makes a Fanged Falchion attack against the triggering enemy.</DamageInfo>
+          <AttackBonuses />
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+  </Powers>
+  <Initiative xsi:type="SimpleAdjustableNumber" FinalValue="14">
+    <Name>Initiative</Name>
+    <DefaultBonus xsi:type="AddNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </Initiative>
+  <HitPoints xsi:type="SimpleAdjustableNumber" FinalValue="560">
+    <Name>HitPoints</Name>
+    <DefaultBonus xsi:type="PercentageNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>-0.113924050632911</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </HitPoints>
+  <ActionPoints FinalValue="2">
+    <Name>ActionPoints</Name>
+    <DefaultBonus xsi:type="AddNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </ActionPoints>
+  <Experience FinalValue="7200">
+    <Name>Experience</Name>
+    <DefaultBonus xsi:type="PercentageNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0.0285714285714285</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </Experience>
+  <Auras>
+    <MonsterAura>
+      <Name>Aura of Unsettling Presence</Name>
+      <Range FinalValue="6">
+        <Name>Range</Name>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>6</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </Range>
+      <Details>Any non-allied creature that enters or starts its turn in the aura must make a DC 27 Will save (Cha-based) or be unable to target the Divine Guardian with attacks that include other targets (single-target attacks are allowed) until the start of its next turn. Animals that fail are also slowed (save ends).</Details>
+    </MonsterAura>
+  </Auras>
+  <LandSpeed id="SP1">
+    <ReferencedObject>
+      <Name>Land</Name>
+    </ReferencedObject>
+    <Speed FinalValue="8">
+      <Name>Speed</Name>
+      <DefaultBonus xsi:type="AddNumberBonus">
+        <Name>Ad hoc</Name>
+        <Value>2</Value>
+        <ID>Ad hoc</ID>
+      </DefaultBonus>
+      <Bonuses />
+    </Speed>
+  </LandSpeed>
+  <Speeds />
+  <SavingThrows>
+    <MonsterSavingThrow FinalValue="5">
+      <Name>SavingThrow</Name>
+      <ID>SavingThrow</ID>
+      <DefaultBonus xsi:type="AddNumberBonus">
+        <Name>Ad hoc</Name>
+        <Value>0</Value>
+        <ID>Ad hoc</ID>
+      </DefaultBonus>
+      <Bonuses />
+    </MonsterSavingThrow>
+  </SavingThrows>
+  <Weaknesses>
+    <CreatureSusceptibility>
+      <ReferencedObject>
+        <Name>Special</Name>
+      </ReferencedObject>
+      <Amount FinalValue="0">
+        <Name>Resistance</Name>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-10</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </Amount>
+      <Details>see Bound to the Faith</Details>
+    </CreatureSusceptibility>
+  </Weaknesses>
+  <Immunities>
+    <ObjectReference id="65">
+      <ReferencedObject>
+        <Name>Fear</Name>
+      </ReferencedObject>
+    </ObjectReference>
+    <ObjectReference id="75">
+      <ReferencedObject>
+        <Name>Poison</Name>
+      </ReferencedObject>
+    </ObjectReference>
+  </Immunities>
+  <Resistances>
+    <CreatureSusceptibility>
+      <ReferencedObject>
+        <Name></Name>
+      </ReferencedObject>
+      <Amount FinalValue="10">
+        <Name>Resistance</Name>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </Amount>
+      <Details>all damage from non-magical attacks</Details>
+    </CreatureSusceptibility>
+    <CreatureSusceptibility id="73">
+      <ReferencedObject>
+        <Name>Necrotic</Name>
+      </ReferencedObject>
+      <Amount FinalValue="10">
+        <Name>Resistance</Name>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </Amount>
+    </CreatureSusceptibility>
+  </Resistances>
+</Monster>
