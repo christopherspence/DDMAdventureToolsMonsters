@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monster xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AbilityScores>
+    <Values>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="13">
+        <Name>Dexterity</Name>
+        <ID>AB3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="13">
+        <Name>Constitution</Name>
+        <ID>AB2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="13">
+        <Name>Wisdom</Name>
+        <ID>AB5</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="19">
+        <Name>Strength</Name>
+        <ID>AB1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="13">
+        <Name>Intelligence</Name>
+        <ID>AB4</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+      <AbilityScoreNumber xsi:type="AbilityScoreNumber" FinalValue="13">
+        <Name>Charisma</Name>
+        <ID>AB6</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </AbilityScoreNumber>
+    </Values>
+  </AbilityScores>
+  <Defenses>
+    <Values>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="22">
+        <Name>AC</Name>
+        <ID>DE5</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="19">
+        <Name>Fortitude</Name>
+        <ID>DE1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="17">
+        <Name>Reflex</Name>
+        <ID>DE2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-1</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="16">
+        <Name>Will</Name>
+        <ID>DE3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-2</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+    </Values>
+  </Defenses>
+  <AttackBonuses>
+    <Values>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="13">
+        <Name>Attack vs AC</Name>
+        <ID>ADE5</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="11">
+        <Name>Attack vs Fortitude</Name>
+        <ID>ADE1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="11">
+        <Name>Attack vs Reflex</Name>
+        <ID>ADE2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="11">
+        <Name>Attack vs Will</Name>
+        <ID>ADE3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+      <SimpleAdjustableNumber xsi:type="SimpleAdjustableNumber" FinalValue="11">
+        <Name>Attack vs Any</Name>
+        <ID>ADE4</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SimpleAdjustableNumber>
+    </Values>
+  </AttackBonuses>
+  <Skills>
+    <Values>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Perception</Name>
+        <ID>SK17</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="10">
+        <Trained>true</Trained>
+        <Name>Acrobatics</Name>
+        <ID>SK1</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>1</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Arcana</Name>
+        <ID>SK2</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="7">
+        <Trained>false</Trained>
+        <Name>Athletics</Name>
+        <ID>SK27</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Bluff</Name>
+        <ID>SK3</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Diplomacy</Name>
+        <ID>SK6</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Dungeoneering</Name>
+        <ID>SK7</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="11">
+        <Trained>true</Trained>
+        <Name>Endurance</Name>
+        <ID>SK8</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>2</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Heal</Name>
+        <ID>SK9</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>History</Name>
+        <ID>SK11</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Insight</Name>
+        <ID>SK13</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="8">
+        <Trained>true</Trained>
+        <Name>Intimidate</Name>
+        <ID>SK14</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>-1</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Nature</Name>
+        <ID>SK16</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Religion</Name>
+        <ID>SK18</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Stealth</Name>
+        <ID>SK20</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Streetwise</Name>
+        <ID>SK21</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+      <SkillNumber xsi:type="SkillNumber" FinalValue="4">
+        <Trained>false</Trained>
+        <Name>Thievery</Name>
+        <ID>SK23</ID>
+        <DefaultBonus xsi:type="AddNumberBonus">
+          <Name>Ad hoc</Name>
+          <Value>0</Value>
+          <ID>Ad hoc</ID>
+        </DefaultBonus>
+        <Bonuses />
+      </SkillNumber>
+    </Values>
+  </Skills>
+  <ID>6550efc2-8d7d-4cc1-a190-18f9378d9e85</ID>
+  <Name>Prazil, Kobold Shieldguard</Name>
+  <Level>6</Level>
+  <Size id="2">
+    <ReferencedObject>
+      <Name>Small</Name>
+    </ReferencedObject>
+  </Size>
+  <Origin id="6">
+    <ReferencedObject>
+      <Name>Natural</Name>
+    </ReferencedObject>
+  </Origin>
+  <Type id="39">
+    <ReferencedObject>
+      <Name>Humanoid</Name>
+    </ReferencedObject>
+  </Type>
+  <IsLeader>false</IsLeader>
+  <Role id="1">
+    <ReferencedObject>
+      <Name>Soldier</Name>
+    </ReferencedObject>
+  </Role>
+  <GroupRole id="GR1">
+    <ReferencedObject>
+      <Name>Standard</Name>
+    </ReferencedObject>
+  </GroupRole>
+  <Items>
+    <ItemAndQuantity>
+      <Quantity>1</Quantity>
+      <Item>
+        <ReferencedObject>
+          <Name>+1 Warhammer</Name>
+        </ReferencedObject>
+      </Item>
+    </ItemAndQuantity>
+    <ItemAndQuantity>
+      <Quantity>1</Quantity>
+      <Item>
+        <ReferencedObject>
+          <Name>Breastplate</Name>
+        </ReferencedObject>
+      </Item>
+    </ItemAndQuantity>
+    <ItemAndQuantity>
+      <Quantity>1</Quantity>
+      <Item id="A8">
+        <ReferencedObject>
+          <Name>Heavy Shield</Name>
+        </ReferencedObject>
+      </Item>
+    </ItemAndQuantity>
+  </Items>
+  <Languages>
+    <ObjectReference id="1">
+      <ReferencedObject>
+        <Name>Common</Name>
+      </ReferencedObject>
+    </ObjectReference>
+    <ObjectReference id="2">
+      <ReferencedObject>
+        <Name>Draconic</Name>
+      </ReferencedObject>
+    </ObjectReference>
+  </Languages>
+  <Alignment id="1">
+    <ReferencedObject>
+      <Name>Unaligned</Name>
+    </ReferencedObject>
+  </Alignment>
+  <Senses>
+    <ObjectReference id="33">
+      <ReferencedObject>
+        <Name>darkvision</Name>
+      </ReferencedObject>
+    </ObjectReference>
+  </Senses>
+  <Regeneration FinalValue="0">
+    <Name>Regeneration</Name>
+    <DefaultBonus xsi:type="AddNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </Regeneration>
+  <Keywords />
+  <Powers>
+    <MonsterPower>
+      <Name> Shield Specialization</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action></Action>
+      <Usage></Usage>
+      <Keywords />
+      <Description>Effect: Prazil gains a +1 bonus to AC from any shield he uses (this is included in his base AC calculation if using a Heavy Shield which gives +2, for a total of +3, then add Shield Block power). Or, input AC as 21 and note this gives +1. For simplicity, the AC 22 assumes a Heavy Shield + this trait.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Defender of Kereek</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action></Action>
+      <Usage></Usage>
+      <Keywords />
+      <Description>Effect: If an enemy adjacent to Prazil makes an attack that targets Kereek but not Prazil, Prazil can make a Warhammer attack against that enemy as an immediate interrupt.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Trap Slinker</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action></Action>
+      <Usage></Usage>
+      <Keywords />
+      <Description>Effect: Prazil can shift 1 square as part of his move action.</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Warhammer</Name>
+      <Type>Melee</Type>
+      <IsBasic>true</IsBasic>
+      <Action>Standard</Action>
+      <Usage>At-Will</Usage>
+      <Keywords>
+        <ObjectReference id="89">
+          <ReferencedObject>
+            <Name>Weapon</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Range>Melee 1 (One Creature)</Range>
+          <Damage>
+            <CustomValue>1d8</CustomValue>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="5">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>1</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo>damage, and the target is marked until the end of Prazil's next turn.</DamageInfo>
+          <AttackBonuses>
+            <MonsterPowerAttackNumber FinalValue="13">
+              <Defense id="ADE5">
+                <ReferencedObject>
+                  <DefenseName>AC</DefenseName>
+                  <Name>Attack vs AC</Name>
+                </ReferencedObject>
+              </Defense>
+              <Name>AttackBonus</Name>
+              <ID>AttackBonus</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>0</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </MonsterPowerAttackNumber>
+          </AttackBonuses>
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Hammer and Shield</Name>
+      <Type>Melee</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Standard</Action>
+      <Usage>Encounter</Usage>
+      <Keywords>
+        <ObjectReference id="89">
+          <ReferencedObject>
+            <Name>Weapon</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Damage>
+            <CustomValue>1d8</CustomValue>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="5">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>1</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo>damage, the target is pushed 1 square, and the target is dazed until the end of Prazil's next turn.</DamageInfo>
+          <AttackBonuses>
+            <MonsterPowerAttackNumber FinalValue="13">
+              <Defense id="ADE5">
+                <ReferencedObject>
+                  <DefenseName>AC</DefenseName>
+                  <Name>Attack vs AC</Name>
+                </ReferencedObject>
+              </Defense>
+              <Name>AttackBonus</Name>
+              <ID>AttackBonus</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>0</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </MonsterPowerAttackNumber>
+          </AttackBonuses>
+        </MonsterAttack>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <Damage>
+            <CustomValue></CustomValue>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="0">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>-4</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <DamageInfo>Effect Prazil gains a +2 bonus to AC until the end of his next turn.</DamageInfo>
+          <AttackBonuses />
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Shield Block</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Minor</Action>
+      <Usage>At-Will (1/round)</Usage>
+      <Keywords>
+        <ObjectReference id="84">
+          <ReferencedObject>
+            <Name>Stance</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Effect: Prazil gains a +2 power bonus to AC and Reflex until the start of his next turn or until he is no longer wielding his shield. (This makes his effective AC 24 when active).</Description>
+      <Attacks />
+    </MonsterPower>
+    <MonsterPower>
+      <Name>Shrewd Reposition</Name>
+      <Type>None</Type>
+      <IsBasic>false</IsBasic>
+      <Action>Immediate Reaction</Action>
+      <Usage>Encounter</Usage>
+      <Keywords>
+        <ObjectReference id="89">
+          <ReferencedObject>
+            <Name>Weapon</Name>
+          </ReferencedObject>
+        </ObjectReference>
+      </Keywords>
+      <Description>Trigger: An enemy marked by Prazil makes an attack that does not include Prazil as a target.</Description>
+      <Attacks>
+        <MonsterAttack>
+          <Name>New Attack</Name>
+          <AttackInfo>Effect: Prazil shifts 1 square. If this places him adjacent to the triggering enemy, he can make a Warhammer attack against it.</AttackInfo>
+          <Damage>
+            <CustomValue></CustomValue>
+            <Type>Normal</Type>
+            <Modifier>Medium</Modifier>
+            <Constant FinalValue="0">
+              <Name>Constant</Name>
+              <ID>MonsterDamageValue</ID>
+              <DefaultBonus xsi:type="AddNumberBonus">
+                <Name>Ad hoc</Name>
+                <Value>-4</Value>
+                <ID>Ad hoc</ID>
+              </DefaultBonus>
+              <Bonuses />
+            </Constant>
+          </Damage>
+          <AttackBonuses />
+        </MonsterAttack>
+      </Attacks>
+    </MonsterPower>
+  </Powers>
+  <Initiative xsi:type="SimpleAdjustableNumber" FinalValue="7">
+    <Name>Initiative</Name>
+    <DefaultBonus xsi:type="AddNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>1</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </Initiative>
+  <HitPoints xsi:type="SimpleAdjustableNumber" FinalValue="73">
+    <Name>HitPoints</Name>
+    <DefaultBonus xsi:type="PercentageNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0.0579710144927537</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </HitPoints>
+  <ActionPoints FinalValue="0">
+    <Name>ActionPoints</Name>
+    <DefaultBonus xsi:type="AddNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </ActionPoints>
+  <Experience FinalValue="250">
+    <Name>Experience</Name>
+    <DefaultBonus xsi:type="PercentageNumberBonus">
+      <Name>Ad hoc</Name>
+      <Value>0</Value>
+      <ID>Ad hoc</ID>
+    </DefaultBonus>
+    <Bonuses />
+  </Experience>
+  <Auras />
+  <LandSpeed id="SP1">
+    <ReferencedObject>
+      <Name>Land</Name>
+    </ReferencedObject>
+    <Speed FinalValue="5">
+      <Name>Speed</Name>
+      <DefaultBonus xsi:type="AddNumberBonus">
+        <Name>Ad hoc</Name>
+        <Value>-1</Value>
+        <ID>Ad hoc</ID>
+      </DefaultBonus>
+      <Bonuses />
+    </Speed>
+  </LandSpeed>
+  <Speeds />
+  <SavingThrows>
+    <MonsterSavingThrow FinalValue="0">
+      <Name>SavingThrow</Name>
+      <ID>SavingThrow</ID>
+      <DefaultBonus xsi:type="AddNumberBonus">
+        <Name>Ad hoc</Name>
+        <Value>0</Value>
+        <ID>Ad hoc</ID>
+      </DefaultBonus>
+      <Bonuses />
+    </MonsterSavingThrow>
+  </SavingThrows>
+  <Weaknesses />
+  <Immunities />
+  <Resistances />
+</Monster>
